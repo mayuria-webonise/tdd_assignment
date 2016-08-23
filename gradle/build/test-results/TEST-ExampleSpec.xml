@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="ExampleSpec" tests="1" failures="1" errors="0" timestamp="2016-08-19T15:34:34" hostname="Webonise-Desktop" time="0.105">
+  <properties/>
+  <testcase name="input is not null and is not new line saperated" classname="ExampleSpec" time="0.105">
+    <failure message="java.lang.NumberFormatException: For input string: &quot;1,2,3&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;1,2,3&quot;
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at Quick.input(Quick.java:27)
+	at ExampleSpec.input is not null and is not new line saperated(tests.groovy:15)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

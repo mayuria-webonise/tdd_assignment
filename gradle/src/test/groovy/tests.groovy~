@@ -1,0 +1,19 @@
+
+import spock.lang.Shared
+import spock.lang.Specification
+/**
+ * @author Petri Kainulainen
+ */
+class ExampleSpec extends Specification
+
+{
+def "should return 2 from first element of list"() {
+    given:
+        Quick q=new Quick()
+    when:
+        q.input("1\n2\n3")
+    then:
+        throw Exception()
+	//println "test succeful"
+}
+}
