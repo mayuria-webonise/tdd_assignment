@@ -41,7 +41,7 @@ public class Merge {
 
     }
 
-    public void initializeTemp(int lowerIndex, int middle, int higherIndex)
+    public void initializeTemp(int lowerIndex, int higherIndex)
     {
         for (int i = lowerIndex; i <= higherIndex; i++) {
             temp[i] = input_nos[i];
@@ -49,7 +49,7 @@ public class Merge {
     }
     public void MergeSort(int lowerIndex, int middle, int higherIndex) {
 
-        initializeTemp(lowerIndex,middle,higherIndex);
+        initializeTemp(lowerIndex,higherIndex);
 
         int i = lowerIndex;
         int j = middle + 1;

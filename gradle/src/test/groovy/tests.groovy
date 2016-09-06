@@ -7,7 +7,7 @@ import spock.lang.Specification
 class QuickSortTests extends Specification
 
 {
-def "input is not null and is not new line saperated"() {
+def "input is not null and is not new line separated"() {
     given:
         Quick q=new Quick()
 

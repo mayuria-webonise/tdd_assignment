@@ -80,7 +80,7 @@ class MergeTests extends Specification{
                 "7\n" +
                 "5");
         when:
-        m.getSortedArray();temp
+        m.partition(0,2);
         then:
         m.getSortedArray()== [1,5,7];
 
